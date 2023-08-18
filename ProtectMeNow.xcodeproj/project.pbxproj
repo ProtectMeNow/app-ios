@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		B53148382A8EED7000EE332A /* ProtectMeNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148372A8EED7000EE332A /* ProtectMeNowApp.swift */; };
-		B531483A2A8EED7000EE332A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148392A8EED7000EE332A /* ContentView.swift */; };
 		B531483C2A8EED7200EE332A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B531483B2A8EED7200EE332A /* Assets.xcassets */; };
 		B531483F2A8EED7200EE332A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B531483E2A8EED7200EE332A /* Preview Assets.xcassets */; };
+		B531484A2A8EEDF800EE332A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148492A8EEDF800EE332A /* LoginView.swift */; };
+		B531484C2A8EEE1500EE332A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531484B2A8EEE1500EE332A /* LoginViewModel.swift */; };
+		B531484F2A8EEE2900EE332A /* ScreenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531484E2A8EEE2900EE332A /* ScreenStatus.swift */; };
+		B53148522A8EEEA200EE332A /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148512A8EEEA200EE332A /* Image+Extension.swift */; };
+		B53148692A8EF0F100EE332A /* LounchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148682A8EF0F100EE332A /* LounchScreen.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B53148652A8EF09B00EE332A /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B53148342A8EED7000EE332A /* ProtectMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtectMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53148372A8EED7000EE332A /* ProtectMeNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectMeNowApp.swift; sourceTree = "<group>"; };
-		B53148392A8EED7000EE332A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B531483B2A8EED7200EE332A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B531483E2A8EED7200EE332A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B53148492A8EEDF800EE332A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B531484B2A8EEE1500EE332A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B531484E2A8EEE2900EE332A /* ScreenStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenStatus.swift; sourceTree = "<group>"; };
+		B53148512A8EEEA200EE332A /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		B53148682A8EF0F100EE332A /* LounchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +72,9 @@
 		B53148362A8EED7000EE332A /* ProtectMeNow */ = {
 			isa = PBXGroup;
 			children = (
-				B53148372A8EED7000EE332A /* ProtectMeNowApp.swift */,
-				B53148392A8EED7000EE332A /* ContentView.swift */,
-				B531483B2A8EED7200EE332A /* Assets.xcassets */,
+				B53148662A8EF0CC00EE332A /* DesignSystem */,
+				B53148462A8EEDBC00EE332A /* Resource */,
+				B53148452A8EEDB300EE332A /* Source */,
 				B531483D2A8EED7200EE332A /* Preview Content */,
 			);
 			path = ProtectMeNow;
@@ -67,6 +88,74 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B53148452A8EEDB300EE332A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B531484D2A8EEE1C00EE332A /* Model */,
+				B53148472A8EEDD300EE332A /* Feature */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B53148462A8EEDBC00EE332A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B53148502A8EEE9700EE332A /* Util */,
+				B53148372A8EED7000EE332A /* ProtectMeNowApp.swift */,
+				B531483B2A8EED7200EE332A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B53148472A8EEDD300EE332A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B53148482A8EEDE000EE332A /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B53148482A8EEDE000EE332A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B53148492A8EEDF800EE332A /* LoginView.swift */,
+				B531484B2A8EEE1500EE332A /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B531484D2A8EEE1C00EE332A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B531484E2A8EEE2900EE332A /* ScreenStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B53148502A8EEE9700EE332A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B53148512A8EEEA200EE332A /* Image+Extension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B53148662A8EF0CC00EE332A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B53148672A8EF0D400EE332A /* LounchScreen */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		B53148672A8EF0D400EE332A /* LounchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B53148682A8EF0F100EE332A /* LounchScreen.swift */,
+			);
+			path = LounchScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +166,7 @@
 				B53148302A8EED7000EE332A /* Sources */,
 				B53148312A8EED7000EE332A /* Frameworks */,
 				B53148322A8EED7000EE332A /* Resources */,
+				B53148652A8EF09B00EE332A /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
@@ -137,8 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B531483A2A8EED7000EE332A /* ContentView.swift in Sources */,
+				B53148522A8EEEA200EE332A /* Image+Extension.swift in Sources */,
+				B531484A2A8EEDF800EE332A /* LoginView.swift in Sources */,
+				B531484F2A8EEE2900EE332A /* ScreenStatus.swift in Sources */,
 				B53148382A8EED7000EE332A /* ProtectMeNowApp.swift in Sources */,
+				B53148692A8EF0F100EE332A /* LounchScreen.swift in Sources */,
+				B531484C2A8EEE1500EE332A /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +356,7 @@
 		B53148432A8EED7200EE332A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +386,7 @@
 		B53148442A8EED7200EE332A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

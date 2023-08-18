@@ -11,7 +11,7 @@ import SwiftUI
 struct ProtectMeNowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(viewModel: LoginView.ViewModel())
         }
     }
 }
