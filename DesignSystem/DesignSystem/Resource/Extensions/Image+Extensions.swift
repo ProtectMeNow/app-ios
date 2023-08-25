@@ -16,5 +16,10 @@ extension Image {
 
 public enum ImageType: String {
     case logo
+    case facebook
+    case google
+    case home
+    case profile
+    case exit
 }
 

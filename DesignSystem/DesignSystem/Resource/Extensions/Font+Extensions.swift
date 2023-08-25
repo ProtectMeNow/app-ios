@@ -20,4 +20,8 @@ public enum FontType: String {
     case bjMedium = "BaiJamjuree-Medium"
     case bjRegular = "BaiJamjuree-Regular"
     case bjSemiBold = "BaiJamjuree-SemiBold"
+    
+    case azBold = "AzeretMono-Bold"
+    case azRegular = "AzeretMono-Regular"
+    case azSemiBold = "AzeretMono-SemiBold"
 }

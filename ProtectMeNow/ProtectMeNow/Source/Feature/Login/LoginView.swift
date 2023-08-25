@@ -5,6 +5,7 @@
 //  Created by Erik Santos on 18/08/23.
 //
 
+import CustomTextField
 import DesignSystem
 import SwiftUI
 
@@ -43,26 +44,33 @@ struct LoginView: View {
                     .padding(.top, 68)
                     .padding(.bottom, 51)
                 
-                
-                
-                TextField("Email", text: $viewModel.emailField)
+                TextFieldView(viewModel: viewModel.emailFieldModel, value: viewModel.emailField)
                     .padding(.bottom, 27)
-                TextField("Senha", text: $viewModel.passwordField)
+                TextFieldView(viewModel: viewModel.passwordFieldModel, value: viewModel.passwordField)
                     .padding(.bottom, 48)
                 
                 HStack {
                     Spacer()
-                    Text("Esqueceu Senha")
+                    
+                    Button {
+                        
+                    } label: {
+                        Text("Esqueceu Senha")
+                            .font(.custom(type: .bjRegular, size: 17))
+                            .foregroundColor(.custom(type: .customDarkTextGrey))
+                    }
                 }
                 .padding(.bottom, 21)
                 
-                Button("Login") {
-                    print("Clicou Entrar")
-                }
+                
+                ButtonView(viewModel: viewModel.buttonViewModel, delegate: viewModel.self)
                 .padding(.bottom, 26)
                 
                 HStack {
                     Text("Não tem conta?")
+                        .font(.custom(type: .bjRegular, size: 17))
+                        .foregroundColor(.custom(type: .customDarkTextGrey))
+                    
                     Button("Cadastre-se") {
                         print("Clicou Cadastrar")
                     }
@@ -70,12 +78,29 @@ struct LoginView: View {
                 .padding(.bottom, 22)
                 
                 Text("ou".uppercased())
+                    .font(.custom(type: .bjRegular, size: 17))
+                    .foregroundColor(.custom(type: .customDarkTextGrey))
                     .padding(.bottom, 25)
                 
                 HStack {
                     Spacer()
-                    Image(systemName: "square.and.arrow.up.circle.fill")
-                    Image(systemName: "square.and.arrow.up.circle.fill")
+                    Button {
+                        
+                    } label: {
+                        Image(type: .google)
+                            .resizable()
+                            .frame(width: 40, height: 40)
+                    }
+                    .padding(.horizontal, 8)
+
+                    Button {
+                        
+                    } label: {
+                        Image(type: .facebook)
+                            .resizable()
+                            .frame(maxWidth: 40, maxHeight: 40)
+                    }
+                    .padding(.horizontal, 8)
                     Spacer()
                 }
                 

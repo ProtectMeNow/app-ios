@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5028C042A981203002FDC3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C032A981203002FDC3D /* HomeView.swift */; };
+		B5028C062A98120D002FDC3D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C052A98120D002FDC3D /* HomeViewModel.swift */; };
+		B5028C092A9812D4002FDC3D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C082A9812D4002FDC3D /* TabBarView.swift */; };
+		B5028C0B2A98138F002FDC3D /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C0A2A98138F002FDC3D /* TabBarViewModel.swift */; };
+		B5028C0E2A981576002FDC3D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C0D2A981576002FDC3D /* ProfileView.swift */; };
+		B5028C102A981581002FDC3D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C0F2A981581002FDC3D /* ProfileViewModel.swift */; };
+		B5028C142A981E28002FDC3D /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C132A981E28002FDC3D /* TabbedItems.swift */; };
+		B53CFD042A940D8E00399A84 /* AzeretMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53CFD032A940D8E00399A84 /* AzeretMono-Bold.ttf */; };
+		B53CFD052A940D9200399A84 /* BaiJamjuree-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B56548092A904F9B0086CCB6 /* BaiJamjuree-ExtraLight.ttf */; };
+		B53CFD062A940D9400399A84 /* BaiJamjuree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B565480A2A904F9B0086CCB6 /* BaiJamjuree-Light.ttf */; };
+		B53CFD072A940D9600399A84 /* BaiJamjuree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B565480B2A904F9B0086CCB6 /* BaiJamjuree-Regular.ttf */; };
+		B53CFD082A940D9900399A84 /* BaiJamjuree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B565480C2A904F9B0086CCB6 /* BaiJamjuree-Medium.ttf */; };
+		B53CFD092A940D9C00399A84 /* BaiJamjuree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B565480D2A904F9B0086CCB6 /* BaiJamjuree-SemiBold.ttf */; };
+		B53CFD0A2A940D9E00399A84 /* BaiJamjuree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B565480E2A904F9B0086CCB6 /* BaiJamjuree-Bold.ttf */; };
+		B53CFD0C2A940DA900399A84 /* AzeretMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53CFD0B2A940DA900399A84 /* AzeretMono-Regular.ttf */; };
+		B53CFD0E2A940DB900399A84 /* AzeretMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53CFD0D2A940DB900399A84 /* AzeretMono-SemiBold.ttf */; };
+		B53CFD102A94199000399A84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B53CFD0F2A94199000399A84 /* GoogleService-Info.plist */; };
+		B53CFD132A941A1800399A84 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B53CFD122A941A1800399A84 /* FirebaseAuth */; };
 		B565477E2A9036510086CCB6 /* ProtectMeNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565477D2A9036510086CCB6 /* ProtectMeNowApp.swift */; };
 		B56547822A9036510086CCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56547812A9036510086CCB6 /* Assets.xcassets */; };
 		B56547852A9036510086CCB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56547842A9036510086CCB6 /* Preview Assets.xcassets */; };
@@ -17,6 +35,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5028C032A981203002FDC3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B5028C052A98120D002FDC3D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B5028C082A9812D4002FDC3D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B5028C0A2A98138F002FDC3D /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		B5028C0D2A981576002FDC3D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B5028C0F2A981581002FDC3D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		B5028C132A981E28002FDC3D /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
+		B53CFD032A940D8E00399A84 /* AzeretMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AzeretMono-Bold.ttf"; sourceTree = "<group>"; };
+		B53CFD0B2A940DA900399A84 /* AzeretMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AzeretMono-Regular.ttf"; sourceTree = "<group>"; };
+		B53CFD0D2A940DB900399A84 /* AzeretMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AzeretMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		B53CFD0F2A94199000399A84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B565477A2A9036510086CCB6 /* ProtectMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtectMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B565477D2A9036510086CCB6 /* ProtectMeNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectMeNowApp.swift; sourceTree = "<group>"; };
 		B56547812A9036510086CCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,12 +69,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56547E92A903DA80086CCB6 /* DesignSystem.framework in Frameworks */,
+				B53CFD132A941A1800399A84 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5028C022A9811F5002FDC3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5028C032A981203002FDC3D /* HomeView.swift */,
+				B5028C052A98120D002FDC3D /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B5028C072A9812C9002FDC3D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B5028C082A9812D4002FDC3D /* TabBarView.swift */,
+				B5028C0A2A98138F002FDC3D /* TabBarViewModel.swift */,
+				B5028C132A981E28002FDC3D /* TabbedItems.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B5028C0C2A981566002FDC3D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B5028C0D2A981576002FDC3D /* ProfileView.swift */,
+				B5028C0F2A981581002FDC3D /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		B56547712A9036500086CCB6 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +161,7 @@
 		B56547A92A90369C0086CCB6 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				B53CFD0F2A94199000399A84 /* GoogleService-Info.plist */,
 				B565480F2A904F9B0086CCB6 /* Fonts */,
 				B565477D2A9036510086CCB6 /* ProtectMeNowApp.swift */,
 			);
@@ -112,6 +171,9 @@
 		B56547AA2A9036BE0086CCB6 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				B5028C0C2A981566002FDC3D /* Profile */,
+				B5028C072A9812C9002FDC3D /* TabBar */,
+				B5028C022A9811F5002FDC3D /* Home */,
 				B56547AC2A9036CB0086CCB6 /* Login */,
 			);
 			path = Feature;
@@ -145,6 +207,9 @@
 		B565480F2A904F9B0086CCB6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B53CFD0D2A940DB900399A84 /* AzeretMono-SemiBold.ttf */,
+				B53CFD0B2A940DA900399A84 /* AzeretMono-Regular.ttf */,
+				B53CFD032A940D8E00399A84 /* AzeretMono-Bold.ttf */,
 				B56548092A904F9B0086CCB6 /* BaiJamjuree-ExtraLight.ttf */,
 				B565480A2A904F9B0086CCB6 /* BaiJamjuree-Light.ttf */,
 				B565480B2A904F9B0086CCB6 /* BaiJamjuree-Regular.ttf */,
@@ -171,6 +236,9 @@
 			dependencies = (
 			);
 			name = ProtectMeNow;
+			packageProductDependencies = (
+				B53CFD122A941A1800399A84 /* FirebaseAuth */,
+			);
 			productName = ProtectMeNow;
 			productReference = B565477A2A9036510086CCB6 /* ProtectMeNow.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +267,9 @@
 				Base,
 			);
 			mainGroup = B56547712A9036500086CCB6;
+			packageReferences = (
+				B53CFD112A941A1800399A84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B565477B2A9036510086CCB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,7 +285,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56547852A9036510086CCB6 /* Preview Assets.xcassets in Resources */,
+				B53CFD072A940D9600399A84 /* BaiJamjuree-Regular.ttf in Resources */,
+				B53CFD0A2A940D9E00399A84 /* BaiJamjuree-Bold.ttf in Resources */,
+				B53CFD0C2A940DA900399A84 /* AzeretMono-Regular.ttf in Resources */,
 				B56547822A9036510086CCB6 /* Assets.xcassets in Resources */,
+				B53CFD102A94199000399A84 /* GoogleService-Info.plist in Resources */,
+				B53CFD0E2A940DB900399A84 /* AzeretMono-SemiBold.ttf in Resources */,
+				B53CFD052A940D9200399A84 /* BaiJamjuree-ExtraLight.ttf in Resources */,
+				B53CFD042A940D8E00399A84 /* AzeretMono-Bold.ttf in Resources */,
+				B53CFD082A940D9900399A84 /* BaiJamjuree-Medium.ttf in Resources */,
+				B53CFD062A940D9400399A84 /* BaiJamjuree-Light.ttf in Resources */,
+				B53CFD092A940D9C00399A84 /* BaiJamjuree-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5028C0B2A98138F002FDC3D /* TabBarViewModel.swift in Sources */,
+				B5028C0E2A981576002FDC3D /* ProfileView.swift in Sources */,
 				B56547B02A9036FB0086CCB6 /* LoginViewModel.swift in Sources */,
+				B5028C142A981E28002FDC3D /* TabbedItems.swift in Sources */,
+				B5028C062A98120D002FDC3D /* HomeViewModel.swift in Sources */,
+				B5028C102A981581002FDC3D /* ProfileViewModel.swift in Sources */,
+				B5028C092A9812D4002FDC3D /* TabBarView.swift in Sources */,
 				B56547B22A9037100086CCB6 /* ScreenStatus.swift in Sources */,
 				B56547AE2A9036D50086CCB6 /* LoginView.swift in Sources */,
+				B5028C042A981203002FDC3D /* HomeView.swift in Sources */,
 				B565477E2A9036510086CCB6 /* ProtectMeNowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +519,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B53CFD112A941A1800399A84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B53CFD122A941A1800399A84 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B53CFD112A941A1800399A84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B56547722A9036500086CCB6 /* Project object */;
 }
