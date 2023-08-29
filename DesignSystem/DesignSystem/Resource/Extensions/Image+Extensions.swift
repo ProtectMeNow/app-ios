@@ -21,5 +21,11 @@ public enum ImageType: String {
     case home
     case profile
     case exit
+    case profileMock
+    case myAccountProfile
+    case warningLocation
+    case history
+    case pulseiraHand
+    case phoneContact
 }
 

@@ -5,6 +5,7 @@
 //  Created by Erik Santos on 24/08/23.
 //
 
+import DesignSystem
 import SwiftUI
 
 struct ProfileView: View {
@@ -15,7 +16,6 @@ struct ProfileView: View {
     var body: some View {
         ZStack {
             Color.custom(type: .customLightWhite)
-            Text("Profile")
         }
     }
 }

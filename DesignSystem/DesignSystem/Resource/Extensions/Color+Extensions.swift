@@ -19,4 +19,7 @@ public enum ColorType: String {
     case customDarkTextGrey
     case customCianoLightGreen
     case customLightWhite
+    case customDarkBlue
+    case customLightHardBlue
+    case customLightMediumBlue
 }

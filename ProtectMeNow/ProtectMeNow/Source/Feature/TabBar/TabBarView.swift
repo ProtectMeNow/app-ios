@@ -21,6 +21,7 @@ struct TabBarView: View {
             TabView(selection: $selectedTab) {
                 HomeView()
                     .tag(0)
+                    .environmentObject(viewModel.homeViewModel)
                 
                 ProfileView()
                     .tag(1)

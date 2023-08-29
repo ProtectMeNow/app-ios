@@ -10,6 +10,11 @@
 		B5028C162A982134002FDC3D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5028C152A982133002FDC3D /* View+Extensions.swift */; };
 		B53CFCFD2A9401C300399A84 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CFCFC2A9401C300399A84 /* Color+Extensions.swift */; };
 		B53CFD002A9407F000399A84 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CFCFF2A9407F000399A84 /* ButtonView.swift */; };
+		B55FB0702A9E82C70000584D /* ProfileImageWithNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FB06F2A9E82C70000584D /* ProfileImageWithNameView.swift */; };
+		B55FB0732A9E8B180000584D /* ModulesItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FB0722A9E8B180000584D /* ModulesItemsView.swift */; };
+		B55FB0752A9E8B4F0000584D /* ModuleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FB0742A9E8B4F0000584D /* ModuleItemView.swift */; };
+		B55FB0782A9E8CE50000584D /* ModuleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FB0772A9E8CE50000584D /* ModuleItem.swift */; };
+		B55FB07B2A9E9F580000584D /* BannerContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FB07A2A9E9F580000584D /* BannerContactView.swift */; };
 		B56547E52A903B490086CCB6 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56547DD2A903B200086CCB6 /* Image+Extensions.swift */; };
 		B56547E62A903B4C0086CCB6 /* LounchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56547DF2A903B200086CCB6 /* LounchScreen.swift */; };
 		B56547EE2A90425C0086CCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56547ED2A90425C0086CCB6 /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 		B5028C152A982133002FDC3D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		B53CFCFC2A9401C300399A84 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		B53CFCFF2A9407F000399A84 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		B55FB06F2A9E82C70000584D /* ProfileImageWithNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageWithNameView.swift; sourceTree = "<group>"; };
+		B55FB0722A9E8B180000584D /* ModulesItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesItemsView.swift; sourceTree = "<group>"; };
+		B55FB0742A9E8B4F0000584D /* ModuleItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleItemView.swift; sourceTree = "<group>"; };
+		B55FB0772A9E8CE50000584D /* ModuleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleItem.swift; sourceTree = "<group>"; };
+		B55FB07A2A9E9F580000584D /* BannerContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerContactView.swift; sourceTree = "<group>"; };
 		B56547CB2A903B050086CCB6 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56547DD2A903B200086CCB6 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 		B56547DF2A903B200086CCB6 /* LounchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreen.swift; sourceTree = "<group>"; };
@@ -49,6 +59,40 @@
 				B53CFCFF2A9407F000399A84 /* ButtonView.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		B55FB06E2A9E82B20000584D /* ProfileImageWithName */ = {
+			isa = PBXGroup;
+			children = (
+				B55FB06F2A9E82C70000584D /* ProfileImageWithNameView.swift */,
+			);
+			path = ProfileImageWithName;
+			sourceTree = "<group>";
+		};
+		B55FB0712A9E8AE40000584D /* ModulesItems */ = {
+			isa = PBXGroup;
+			children = (
+				B55FB0762A9E8CD90000584D /* Model */,
+				B55FB0722A9E8B180000584D /* ModulesItemsView.swift */,
+				B55FB0742A9E8B4F0000584D /* ModuleItemView.swift */,
+			);
+			path = ModulesItems;
+			sourceTree = "<group>";
+		};
+		B55FB0762A9E8CD90000584D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B55FB0772A9E8CE50000584D /* ModuleItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B55FB0792A9E9F450000584D /* BannerContact */ = {
+			isa = PBXGroup;
+			children = (
+				B55FB07A2A9E9F580000584D /* BannerContactView.swift */,
+			);
+			path = BannerContact;
 			sourceTree = "<group>";
 		};
 		B56547C12A903B050086CCB6 = {
@@ -99,6 +143,9 @@
 		B56547E12A903B200086CCB6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B55FB0792A9E9F450000584D /* BannerContact */,
+				B55FB0712A9E8AE40000584D /* ModulesItems */,
+				B55FB06E2A9E82B20000584D /* ProfileImageWithName */,
 				B53CFCFE2A9407E300399A84 /* Button */,
 				B56547F12A90482C0086CCB6 /* TextField */,
 				B56547E02A903B200086CCB6 /* LounchScreen */,
@@ -218,9 +265,14 @@
 			files = (
 				B53CFCFD2A9401C300399A84 /* Color+Extensions.swift in Sources */,
 				B56547E62A903B4C0086CCB6 /* LounchScreen.swift in Sources */,
+				B55FB0782A9E8CE50000584D /* ModuleItem.swift in Sources */,
+				B55FB07B2A9E9F580000584D /* BannerContactView.swift in Sources */,
+				B55FB0732A9E8B180000584D /* ModulesItemsView.swift in Sources */,
 				B53CFD002A9407F000399A84 /* ButtonView.swift in Sources */,
 				B5028C162A982134002FDC3D /* View+Extensions.swift in Sources */,
+				B55FB0752A9E8B4F0000584D /* ModuleItemView.swift in Sources */,
 				B56547E52A903B490086CCB6 /* Image+Extensions.swift in Sources */,
+				B55FB0702A9E82C70000584D /* ProfileImageWithNameView.swift in Sources */,
 				B56548082A904C210086CCB6 /* Font+Extensions.swift in Sources */,
 				B56547F32A90483D0086CCB6 /* TextFieldView.swift in Sources */,
 			);
